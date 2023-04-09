@@ -5,9 +5,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-color: #20579e;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Container {
+  margin-top:50px;
+  background-color:transparent !important;
+}
+
+.MainGrid {
+  background-color: rgba(0,0,0,.5);
+  color:#FFF;
+  padding:1em;
+}
+
+.TextHeader {
+  text-align:center;
+  font-size:2em;
+}
+
+.SubTextHeader {
+  text-align:center;
+  padding-top:20px;
+}
+
+.AddressInput {
+  background-color:rgba(255,255,255,.5);
+  margin-top:30px;
+  width:80%;
+  margin-left:10%;
+}
+
+.threeColumns {
+  margin-top:30px;
+  margin-left:10%;
+}
+
+.MuiCheckbox-root {
+  border-color:#FFF;
+  color:#FFF !important;
+}
+
+.align-right {
+  display: flex !important;
+  justify-content: right !important;
+}
+
+a {
+  color:#FFF;
 }
