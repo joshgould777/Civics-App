@@ -1,4 +1,3 @@
-The demo of this code can be found here:   <a href="https://turnernova-cjazdd.stormkit.dev/">https://turnernova-cjazdd.stormkit.dev/</a>
 
 # Getting Started with Create React App
 
