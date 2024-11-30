@@ -159,7 +159,6 @@ export default function App() {
                       return (
                             <div key={officials.name}>
                               <div className="details">{officials.name}<br/>
-                                {officials.geocodingSummaries[0].queryString}<br/>
                                 {officials.party}<br/>
                                 {officials.phones}<br/>
                                 <a href={officials.urls[0]}>{officials.urls[0]}</a><br/>
@@ -184,7 +183,6 @@ export default function App() {
                     return (
                           <div key={officials.name}>
                             <div className="details">{officials.name}<br/>
-                              {officials.geocodingSummaries[0].queryString}<br/>
                               {officials.party}<br/>
                               {officials.phones}<br/>
                               {officials?.urls?
@@ -211,7 +209,6 @@ export default function App() {
                         return (
                           <div key={index}>
                             <div className="details">{officials.name}<br/>
-                              {officials.geocodingSummaries[0]?.queryString}<br/>
                               {officials.party}<br/>
                               {officials.phones}<br/>
                               {officials?.urls?
