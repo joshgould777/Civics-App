@@ -148,10 +148,10 @@ export default function App() {
           </Grid>
           <Search />
 
-          <Grid sx={{marginTop: '0px'}} container spacing={0}>
+          <Grid sx={{marginTop: '0px'}} container spacing={2}>
             {fedData.offices?.map((offices, officeIndex) => {
             return (
-              <Grid item sm={12} md={6} key={officeIndex}>
+              <Grid item xs={12} sm={12} md={6} key={officeIndex}>
                 <Item elevation={3}>
                   <h2>{offices.name} </h2>
                   {fedData.officials?.map((officials, index) => {
@@ -175,7 +175,7 @@ export default function App() {
 
           {stateData.offices?.map((offices, officeIndex) => {
             return (
-              <Grid item sm={12} md={6} key={officeIndex}>
+              <Grid item xs={12} sm={12} md={6} key={officeIndex}>
                   <Item elevation={3}>
                 <h2>{offices.name} </h2>
                 {stateData.officials?.map((officials, index) => {
@@ -201,7 +201,7 @@ export default function App() {
 
           {localData.offices?.map((offices, officeIndex) => {
             return (
-              <Grid item sm={12} md={6} key={officeIndex}>
+              <Grid item xs={12} sm={12} md={6} key={officeIndex}>
                   <Item elevation={3}>
                     <h2>{offices.name} </h2>
                     {localData.officials?.map((officials, index) => {
