@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Civics-App/static/css/main.3e6e160f.css",
-    "main.js": "/Civics-App/static/js/main.dc4d2c96.js",
+    "main.css": "/Civics-App/static/css/main.29d4b6b1.css",
+    "main.js": "/Civics-App/static/js/main.96d2666c.js",
     "static/js/787.9dc70839.chunk.js": "/Civics-App/static/js/787.9dc70839.chunk.js",
     "static/media/background.jpg": "/Civics-App/static/media/background.7b7b846bdd039f081408.jpg",
     "index.html": "/Civics-App/index.html",
-    "main.3e6e160f.css.map": "/Civics-App/static/css/main.3e6e160f.css.map",
-    "main.dc4d2c96.js.map": "/Civics-App/static/js/main.dc4d2c96.js.map",
+    "main.29d4b6b1.css.map": "/Civics-App/static/css/main.29d4b6b1.css.map",
+    "main.96d2666c.js.map": "/Civics-App/static/js/main.96d2666c.js.map",
     "787.9dc70839.chunk.js.map": "/Civics-App/static/js/787.9dc70839.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e6e160f.css",
-    "static/js/main.dc4d2c96.js"
+    "static/css/main.29d4b6b1.css",
+    "static/js/main.96d2666c.js"
   ]
 }
